@@ -25,7 +25,7 @@ nav a{
  float:left;
 
 }
-nav a:hover, .dropdown .dropbtn{
+nav a:hover{
     transition-duration: .6s;
     background-color: azure;
     color: black;
@@ -40,9 +40,26 @@ nav a:hover, .dropdown .dropbtn{
     text-transform: uppercase;
     color: beige;
     letter-spacing: 2px;
-    background-color: rgb(16, 99, 23);
+    background-color: rgb(16, 49, 99);
     font-family: inherit;
     font-size: inherit;
     padding: 10px 20px;
 
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px #171515;
+    z-index: 1 ; /*sloi*/
+
+}
+
+.dropdown-content a{
+    float: none;
+    background-color: rgb(15, 132, 132);
+    color: black;
+}
+    .dropdown:hover .dropdown-content{
+    display:block ;
 }
