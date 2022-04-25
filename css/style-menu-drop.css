@@ -29,3 +29,19 @@ nav a:hover{
     background-color: azure;
     color: black;
 }
+.dropdown{
+    float: left;
+}
+.dropdown .dropbth{
+    border: none;
+    outline: none;
+    margin: 0;
+    text-transform: uppercase;
+    color: beige;
+    letter-spacing: 2px;
+    background-color: blue;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px 20px;
+
+}
