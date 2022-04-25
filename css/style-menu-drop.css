@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+
+body{
+    background-color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    /* margin chtob ubrat espace mejdu menu i berxom body*/
+
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+nav a{
+ text-decoration: none;
+ text-transform: uppercase;
+ color: azure;
+ letter-spacing: 2px;
+ padding: 10px 20px;
+ background-color: rgb(88, 54, 13);
+ /* korichnevii dlya togo chtob videt chto net espase mejdu blokami menu*/
+ /* a voobje doljen bit chernim*/
+ display: block;
+ float:left;
+
+}
+nav a:hover{
+    transition-duration: .6s;
+    background-color: azure;
+    color: black;
+}
